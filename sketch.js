@@ -94,7 +94,7 @@ function draw(){
     }
 
   if(frameCount % 250 === 0){
-    obstacle = createSprite(670, height-200, 30, 30);
+    obstacle = createSprite(width + 20, height-200, 30, 30);
     obstacle.addImage(obstacleImage);
     obstacle.velocityX = -4;
     obstacle.lifetime = 500;  
