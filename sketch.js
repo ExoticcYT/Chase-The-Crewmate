@@ -109,7 +109,7 @@ function draw(){
   
   console.log(frameCount);
   
-  if(keyDown("space") && Impostor.y >= 428 ){
+  if(keyDown("space") && Impostor.y >= 528 ){
     Impostor.velocityY = -15;
   }
   
